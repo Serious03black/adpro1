@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-   :root {
+  :root {
     --background: 0 0% 98%;
     --foreground: 222 47% 11%;
 
@@ -40,7 +40,6 @@
     --gradient-start: 217 91% 60%;
     --gradient-end: 262 83% 58%;
   }
-
   .dark {
     --background: 222 47% 6%;
     --foreground: 210 40% 98%;
