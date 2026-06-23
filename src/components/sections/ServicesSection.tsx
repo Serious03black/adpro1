@@ -3,7 +3,7 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { cn } from '@/lib/utils';
 import { 
   Search, Share2, Target, Megaphone,
-  Globe, Smartphone, Palette, Server, Cloud 
+  Globe, Smartphone, Palette, Server, Cloud, PhoneCall 
 } from 'lucide-react';
 
 const marketingServices = [
@@ -30,6 +30,12 @@ const marketingServices = [
     title: 'Branding & Creative Campaigns',
     description: 'Memorable brand identities that resonate with your audience.',
     details: 'From brand strategy to visual identity, we create cohesive campaigns that tell your story and drive engagement.',
+  },
+  {
+    icon: PhoneCall,
+    title: 'Sales & Support Call Handling',
+    description: 'Dedicated representatives to manage sales calls, customer support, and lead follow-ups.',
+    details: 'We provide professional, trained agents to handle inbound sales inquiries, manage customer support calls, and conduct proactive customer follow-ups on behalf of your company to drive conversions and satisfaction.',
   },
 ];
 
